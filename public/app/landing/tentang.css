@@ -1,0 +1,88 @@
+.hero {
+    margin-bottom: 10px;
+}
+
+.tentang-perhitungan-poin {
+    grid-column: 1/9;
+    top: 40px;
+    position: relative;
+}
+
+
+.section-2 img {
+    display: none;
+}
+
+.card-tentang {
+    grid-column: span 8;
+    margin: 10px 0px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgba(117, 117, 117, 0.1);
+    box-shadow: 1px 10px 5px rgba(0,0,0,.1);
+}
+
+.head-tentang {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head-tentang img {
+    width: 85%;
+}
+
+.body-tentang h2 {
+    font-size: 1.3em;
+    text-align: center;
+    padding: 10px 0;
+    font-weight: 550;
+}
+
+.body-tentang p {
+    text-align: center;
+}
+
+
+@media screen and (min-width: 550px) {
+    .card-tentang {
+        grid-column: span 4;
+        margin: 10px;
+    }
+
+    .card-tentang .head-tentang img {
+        width: 85%;
+        height: 200px;
+        object-fit: contain;
+    }
+
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .section-2 img {
+        display: block;
+    }
+    
+    .card-tentang {
+        grid-column: span 4;
+
+    }
+
+    .card-tentang .head-tentang img {
+        width: 85%;
+        height: 200px;
+        object-fit: contain;
+    }
+
+}
+
+@media screen and (min-width: 960px) {
+
+    .card-tentang {
+        grid-column: span 2;
+    }
+
+    
+}
